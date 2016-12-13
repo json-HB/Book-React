@@ -62,6 +62,7 @@ module.exports = {
         }
     }),
     new webpack.NoErrorsPlugin(),
-    new webpack.BannerPlugin("json-hb")
+    new webpack.BannerPlugin("json-hb"),
+     new webpack.optimize.CommonsChunkPlugin("common.js")
     ]
 }
