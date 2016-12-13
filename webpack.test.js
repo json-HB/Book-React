@@ -50,7 +50,11 @@ module.exports = {
         title:"book-react",
         hash:true,
         template:'./template.html',
-        favicon:"test.ico"
+        favicon:"test.ico",
+        // inject: true,
+        // minify: {
+        //     removeAttributeQuotes: true // 移除属性的引号
+        // }
     }),
     // new webpack.optimize.UglifyJsPlugin({
     // compress: {
