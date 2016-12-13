@@ -1,0 +1,68 @@
+.container {
+	margin-top: 10px;
+	overflow-y: auto;
+	.list a {
+		border-bottom: 2px solid #ccc;
+		padding-bottom: 12px;
+		padding-top: 10px;
+		display: flex;
+		img {
+			width: 90px;
+			height: 115px;
+		}
+		ul {
+			margin-top: -20px;
+			flex: 1;
+			margin-left: 10px;
+			li:first-child {
+				p span:first-child{
+					font-size: 0.35rem;
+					 color: #333;
+				}	
+				p span:last-child{
+					font-size: 0.28rem;
+					 color: #666;
+					 background: #dbd6f5;
+					 float: right;
+					 position: relative;
+					 top: 20px;
+				}	
+			}
+			li:nth-child(2){
+				height: 30px;
+				p {
+					span:nth-child(1) {
+						float:left;
+						color: #666;
+						font-size: 0.35rem;
+					}
+					span:nth-child(3) {
+						i {
+							color: #ccc;
+						}
+						padding-right: 15px;
+						float:right;
+						color: #FF6000;
+						font-size: 0.35rem;
+
+					}
+					span:nth-child(2) {
+						i {
+							color: #ccc;
+						}
+						float: right;
+						color: #999;
+						font-size: 0.35rem;
+					}
+				}
+			}
+			li:last-child {
+				margin-top: 8px;
+				p {
+					color: #999;
+					font-size: 0.55em;
+				}
+			}
+		}
+	}
+}

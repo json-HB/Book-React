@@ -1,0 +1,134 @@
+@yineng: #ffc7ab;
+@doushi: #fcebb6;
+@jiakong: #c1effe;
+@xuanhuan: #dbd6f5;
+@xiaoyuan: #ffc4c4;
+
+.yineng {
+	background: @yineng !important;  
+}
+.doushi {
+	background: @doushi !important;  
+}
+.jiakong {
+	background: @jiakong !important;  
+}
+.xuanhuan {
+	background: @xuanhuan !important;  
+}
+.xiaoyuan {
+	background: @xiaoyuan !important;  
+}
+
+.booksList {
+	margin-top: 30px;
+	border:1px solid #ccc;
+	border-bottom: 0px;
+	.headerTitle {
+		height: 44px;
+		h3 {
+		margin-left: 15px;
+	    color: #666;
+	    white-space: nowrap;
+	    float: left;
+	    display: inline-block;
+	    position: relative;
+	    &:before {
+	    	display: block;
+	    	content:"";
+	    	width: 4px;
+	    	height: 20px;
+	    	position: absolute;
+	    	left: -15px;
+	    	top: 4px;
+	    	background: #00aeef;
+	    	border-radius: 2px;
+	    }
+		}
+		span {
+			float: right;
+			margin-right: 10px;
+			font-size: 0.5em;		
+			&:hover {
+				cursor: pointer;
+			}
+			i {
+				color: #00aeef;
+			}
+		}
+	}
+	.listFirst {
+		height: 148px;
+		display: flex;
+		img {
+			margin-left: 10px;
+		}
+		.detail {
+			flex:1;
+			h3 {
+			padding-left: 10px;
+			padding-top: 5px;
+		    color: #333;
+		    text-overflow: ellipsis;
+		    white-space: nowrap;
+			}
+			p {
+				margin-left: 10px;
+				
+				span {
+					position: relative;
+					top: -8px;
+					background-color: #a8c7f3;
+					color: #666;
+					margin-right: 6px;
+				}
+				i {
+					color: #666;
+					font-size: 0.5em;
+					position: relative;
+					top: -5px;
+				}
+			}
+			p:nth-of-type(2) {
+				font-size: 0.5em;
+				color:#999;
+				padding-right: 10px;
+			}
+		}	
+	}
+	.line {
+		width: 94%;
+		height: 2px;
+		background: #ccc;
+		margin-top: 30px;
+		margin-left: 3%;
+		text-align:center;
+	}
+	ul {
+		li {
+			border-bottom: 1px solid #ccc;
+			margin-bottom: 5px;
+			.row{
+				margin:0;
+				div:nth-child(1) {
+					span {
+						position: relative;
+						top: -8px;
+						    color: #666;
+						    background: #a8c7f3;
+					}
+				} 
+				div:nth-child(2) {
+					font-size: .6em;
+					    color: #333;
+					    padding-top: 10px;
+				}
+				div:nth-child(3) {
+					font-size: .6em;
+					color: #666;
+					    padding-top: 10px;
+				}
+			}
+		}
+	}
+}

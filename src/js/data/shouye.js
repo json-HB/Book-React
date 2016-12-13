@@ -1,0 +1,212 @@
+const shouye = {
+	xiaoxiangjngping: [{
+	title: "潇湘精品",
+	url:"http://images.xxsy.net/simg/839586.jpg",
+	bookTitle:"至尊萌宝之父王请绕道",
+	badge:"穿越",
+	autor: "灵犀殿下",
+	book_info:"她是国际刑警，冷静沉稳，聪慧敏锐，最终为国捐躯，英勇壮烈。她是将军之女，懦弱胆小，无才无德，最后..."
+	},
+	{
+	badge:"穿越",
+	bookName:"娇医有毒",
+	autor:"莫风流"
+	},
+	{
+	badge:"穿越",
+	bookName:"报告摄政王之太子",
+	autor:"惑乱江山"
+	},
+	{
+	badge:"架空",
+	bookName:"妃你不可之十里红妆",
+	autor:"公子无奇"
+	},
+	{
+	badge:"异能",
+	bookName:"重生之千金传奇",
+	autor:"一顾相宜"
+	},
+	{
+	badge:"穿越",
+	bookName:"皇族贵妻",
+	autor:"文苑舒兰"
+	}
+	],
+	xinwensudi: [
+		{
+	title: "新文速递",
+	url:"http://images.xxsy.net/simg/862867.jpg",
+	bookTitle:"军少的灵眼狂妻",
+	badge:"异能",
+	autor: "岚歆",
+	book_info:"萧阮沁，十六岁除夕之夜一觉醒来，突然发现自己多了一样神奇的技能，从此之后开始了一段颠覆人生观的旅..."
+	},
+	{
+	badge:"穿越",
+	bookName:"嫡女医妃之冷王诱爱",
+	autor:"赖皮"
+	},
+	{
+	badge:"豪门",
+	bookName:"闪婚掠爱之帝少的萌妻",
+	autor:"乞丐女王"
+	},
+	{
+	badge:"豪门",
+	bookName:"豪门重生之宋氏长媳",
+	autor:"慕容瑜霏"
+	},
+	{
+	badge:"异能",
+	bookName:"全能影后的花式撩法",
+	autor:"淡粥"
+	},
+	{
+	badge:"豪门",
+	bookName:"重生之拒嫁豪门军爷",
+	autor:"捌月"
+	}
+	],
+	hotFinal: [
+		{
+	title: "热门完结",
+	url:"http://images.xxsy.net/simg/447771.jpg",
+	bookTitle:"望族嫡妇之玉面玲珑",
+	badge:"架空",
+	autor: "筑梦者",
+	book_info:"一桩富贵姻缘从天而降，掉到林家人的头上，砸得这已家道中落的人家晕头转向，于是各方诡计层出不穷，姑..."
+	},
+	{
+	badge:"玄幻",
+	bookName:"邪医紫后",
+	autor:"绝世启航"
+	},
+	{
+	badge:"豪门",
+	bookName:"军门密爱之七少的爱妻",
+	autor:"月初姣姣"
+	},
+	{
+	badge:"豪门",
+	bookName:"天才儿子腹黑娘亲",
+	autor:"北藤"
+	},
+	{
+	badge:"豪门",
+	bookName:"名门逼婚",
+	autor:"清音随琴"
+	},
+	{
+	badge:"豪门",
+	bookName:"名门第一夫人",
+	autor:"暮阳初春"
+	}
+	],
+	renqijingxuan: [
+		{
+	title: "人气精选",
+	url:"http://images.xxsy.net/simg/859089.jpg",
+	bookTitle:"暖妻之老公抗议无效",
+	badge:"都市",
+	autor: "大雪人",
+	book_info:"我积攒一生的好运，都是为了遇见你——苏静楠！苏静楠是一个倒霉的女孩儿。出生被遗弃，婚礼被抛弃，合..."
+	},
+	{
+	badge:"校园",
+	bookName:"学霸你女朋友掉了",
+	autor:"听听雨夜"
+	},
+	{
+	badge:"玄幻",
+	bookName:"驱魔龙族之极品言灵师",
+	autor:"绯月天歌"
+	},
+	{
+	badge:"都市",
+	bookName:"钻石婚约之宠妻上瘾",
+	autor:"香菜牛肉饺子"
+	},
+	{
+	badge:"都市",
+	bookName:"早婚之娇妻萌宝",
+	autor:"明景"
+	},
+	{
+	badge:"穿越",
+	bookName:"妖孽国师滚边去",
+	autor:"笑无语"
+	}
+	],
+	editorPush: [
+		{
+	title: "编辑推荐",
+	url:"http://images.xxsy.net/simg/708156.jpg",
+	bookTitle:"王牌狙击之溺爱狂妻",
+	badge:"都市",
+	autor: "水果店的瓶子",
+	book_info:"她是佣兵界的传奇。她是狙击界的神话。前世佣兵女王，危机关头遭好友背叛，一朝丧命。今世重生军营，成..."
+	},
+	{
+	badge:"穿越",
+	bookName:"特工傻妃不争宠",
+	autor:"水云行"
+	},
+	{
+	badge:"架空",
+	bookName:"重生之弃女惊华",
+	autor:"西迟湄"
+	},
+	{
+	badge:"异能",
+	bookName:"天才医生重生十八岁",
+	autor:"景渊"
+	},
+	{
+	badge:"都市",
+	bookName:"钻石闪婚之溺宠小娇妻",
+	autor:"花间妖"
+	},
+	{
+	badge:"异能",
+	bookName:"重生之鬼眼商女",
+	autor:"秦三"
+	}
+	],
+	free: [
+		{
+	title: "免费专区",
+	url:"http://images.xxsy.net/simg/333125.jpg",
+	bookTitle:"邪恶贤妃",
+	badge:"穿越",
+	autor: "白猫黑猫",
+	book_info:"她是日月王朝唯一的女将军，备受人敬畏，却因自小国师寓言她乃‘煞星’转世，暗地里被人疏远鄙夷，无一..."
+	},
+	{
+	badge:"穿越",
+	bookName:"承帝欢",
+	autor:"心若花微"
+	},
+	{
+	badge:"玄幻",
+	bookName:"嗜血巫仙：霸道狂夫",
+	autor:"血零"
+	},
+	{
+	badge:"短篇",
+	bookName:"替妃弃宠",
+	autor:"唐梦若影"
+	},
+	{
+	badge:"都市",
+	bookName:"调教邪魅总裁",
+	autor:"xe灬逆蝶"
+	},
+	{
+	badge:"玄幻",
+	bookName:"逆天邪主",
+	autor:"日辰睡莲"
+	}
+	]
+}
+export default shouye;
