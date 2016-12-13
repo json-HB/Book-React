@@ -52,11 +52,11 @@ module.exports = {
         template:'./template.html',
         favicon:"test.ico"
     }),
-    new webpack.optimize.UglifyJsPlugin({
-    compress: {
-      warnings: false
-        }
-    }),
+    // new webpack.optimize.UglifyJsPlugin({
+    // compress: {
+    //   warnings: false
+    //     }
+    // }),
     new webpack.NoErrorsPlugin(),
     new webpack.BannerPlugin("json-hb")
     ]
