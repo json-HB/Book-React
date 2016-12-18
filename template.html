@@ -17,6 +17,13 @@
 
 <script type="text/javascript" src="build/js/jquery.js"></script>
 <script type="text/javascript" src="build/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="build/js/fastclick.js"></script>
+
 <div id="app"></div>
+<script type="text/javascript">
+    document.addEventListener('load', function() {
+        FastClick.attach(document.body);
+    }, false);
+</script>
 </body>
 </html>
