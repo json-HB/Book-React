@@ -51,7 +51,7 @@ module.exports = {
         hash:true,
         template:'./template.html',
         favicon:"test.ico",
-        // inject: true,
+        inject: true,
         // minify: {
         //     removeAttributeQuotes: true // 移除属性的引号
         // }
